@@ -1,0 +1,68 @@
+.despesas-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .despesas-container input {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .despesas-container button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .despesas-container button:hover {
+    background-color: #218838;
+  }
+  
+  .despesas-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .despesas-container li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .despesas-container h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .despesas-container .total {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .despesas-container li button {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .despesas-container li button:hover {
+    background-color: #c82333;
+  }
+  
